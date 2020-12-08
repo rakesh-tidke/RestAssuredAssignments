@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2508" started-at="2020-12-08T14:04:30Z" finished-at="2020-12-08T14:04:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2508" started-at="2020-12-08T14:04:30Z" finished-at="2020-12-08T14:04:33Z">
+      <class name="eighthRestTest.TestRunner">
+        <test-method status="PASS" signature="api_for_foreign_exchange()[pri:0, instance:eighthRestTest.TestRunner@3fe60c4e]" name="api_for_foreign_exchange" duration-ms="478" started-at="2020-12-08T14:04:30Z" finished-at="2020-12-08T14:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_for_foreign_exchange -->
+        <test-method status="PASS" signature="posted_with_correct_information(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:eighthRestTest.TestRunner@3fe60c4e]" name="posted_with_correct_information" duration-ms="1718" started-at="2020-12-08T14:04:31Z" data-provider="Date" finished-at="2020-12-08T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[09]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posted_with_correct_information -->
+        <test-method status="PASS" signature="posted_with_correct_information(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:eighthRestTest.TestRunner@3fe60c4e]" name="posted_with_correct_information" duration-ms="275" started-at="2020-12-08T14:04:33Z" data-provider="Date" finished-at="2020-12-08T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posted_with_correct_information -->
+        <test-method status="PASS" signature="validate_positive_response_code_received()[pri:0, instance:eighthRestTest.TestRunner@3fe60c4e]" name="validate_positive_response_code_received" duration-ms="3" started-at="2020-12-08T14:04:33Z" finished-at="2020-12-08T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_positive_response_code_received -->
+      </class> <!-- eighthRestTest.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
